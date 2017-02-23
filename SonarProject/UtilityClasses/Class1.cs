@@ -16,6 +16,12 @@ namespace UtilityClasses
             return;
         }
 
+        private void doNotingMore()
+        {
+            int x = 1;
+            return;
+        }
+
 
     }
 }
