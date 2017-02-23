@@ -45,7 +45,7 @@ namespace PskillsConsoleApplication
         }
 
 
-        private static string result;
+        
 
         
 
