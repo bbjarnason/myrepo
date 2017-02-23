@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>log4net.vs2012</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>181fe707-e161-4722-9f38-6aaab6faa106</ProjectGuid>
+  <FullPath>C:\sonarqube\projects\log4net-2.0.7\src\log4net.vs2012.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\sonarqube\projects\SonarProject\.sonarqube\out\\log4net.vs2012_AnyCPU_Debug_3864\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePath">C:\sonarqube\projects\log4net-2.0.7\build\bin\net\4.5\debug\log4net.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPath">C:\sonarqube\projects\SonarProject\.sonarqube\out\\log4net.vs2012_AnyCPU_Debug_3864</Property>
+    <Property Name="sonar.stylecop.projectFilePath">C:\sonarqube\projects\log4net-2.0.7\src\log4net.vs2012.csproj</Property>
+  </AnalysisSettings>
+</ProjectInfo>

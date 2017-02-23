@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>SD.Tools.Algorithmia</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>46a021f5-5eb9-42b2-9334-724870c4be45</ProjectGuid>
+  <FullPath>C:\sonarqube\projects\Algorithmia-master\SD.Tools.Algorithmia\SD.Tools.Algorithmia.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\sonarqube\projects\SonarProject\.sonarqube\out\\SD.Tools.Algorithmia_AnyCPU_Debug_3258\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePath">C:\sonarqube\projects\Algorithmia-master\SD.Tools.Algorithmia\bin\Debug\SD.Tools.Algorithmia.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPath">C:\sonarqube\projects\SonarProject\.sonarqube\out\\SD.Tools.Algorithmia_AnyCPU_Debug_3258</Property>
+    <Property Name="sonar.stylecop.projectFilePath">C:\sonarqube\projects\Algorithmia-master\SD.Tools.Algorithmia\SD.Tools.Algorithmia.csproj</Property>
+  </AnalysisSettings>
+</ProjectInfo>

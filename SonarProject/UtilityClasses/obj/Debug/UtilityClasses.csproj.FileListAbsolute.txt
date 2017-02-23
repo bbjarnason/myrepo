@@ -1,0 +1,5 @@
+C:\sonarqube\projects\SonarProject\UtilityClasses\bin\Debug\UtilityClasses.dll
+C:\sonarqube\projects\SonarProject\UtilityClasses\bin\Debug\UtilityClasses.pdb
+C:\sonarqube\projects\SonarProject\UtilityClasses\obj\Debug\UtilityClasses.dll
+C:\sonarqube\projects\SonarProject\UtilityClasses\obj\Debug\UtilityClasses.pdb
+C:\sonarqube\projects\SonarProject\UtilityClasses\obj\Debug\UtilityClasses.csprojResolveAssemblyReference.cache

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition="'$(Configuration)'==''">$(OS)_Debug</Configuration>
+  </PropertyGroup>
+  <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.props))\dir.props" />
+  <PropertyGroup>
+    <AssemblyName>System.Private.ServiceModel</AssemblyName>
+    <RootNamespace>System.ServiceModel</RootNamespace>
+    <OutputType>Library</OutputType>
+    <NoWarn>$(NoWarn);1634;1691;649</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <FileAlignment>512</FileAlignment>
+    <DebugSymbols>true</DebugSymbols>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ProjectGuid>{9E50E7BF-CD6E-4269-A6DD-59FD0BD6C0FD}</ProjectGuid>
+    <PackageTargetFramework Condition="'$(PackageTargetFramework)'==''">netstandard1.7</PackageTargetFramework>
+    <CommonPath Condition="'$(CommonPath)' == ''">..\..\Common\src</CommonPath>
+    <PackageTargetRuntime Condition="'$(OSGroup)' == 'Unix'">unix</PackageTargetRuntime>
+    <PackageTargetRuntime Condition="'$(OSGroup)' == 'Windows_NT'">win7</PackageTargetRuntime>
+    <NuGetTargetMoniker Condition="'$(TargetGroup)' == ''">.NETStandard,Version=v1.7</NuGetTargetMoniker>
+  </PropertyGroup>
+  <!-- Default configurations to help VS understand the options -->
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Unix_Debug|AnyCPU'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Unix_Release|AnyCPU'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Windows_Debug|AnyCPU'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Windows_Release|AnyCPU'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Windows_netcore50_Debug|AnyCPU'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Windows_netcore50_Release|AnyCPU'" />
+  <PropertyGroup Condition="'$(TargetGroup)' == 'netcore50'">
+    <DefineConstants>$(DefineConstants);NETStandard13</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(TargetGroup)' == 'netcore50'">
+    <DefineConstants>$(DefineConstants);FEATURE_NETNATIVE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(TargetGroup)' != 'netcore50'">
+    <DefineConstants>$(DefineConstants);FEATURE_CORECLR;SUPPORTS_WINDOWSIDENTITY</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(TargetsWindows)' == 'true'">
+    <DefineConstants>$(DefineConstants);TARGETS_WINDOWS</DefineConstants>
+    <ProjectJson>$(MsBuildThisFileDirectory)windows\project.json</ProjectJson>
+    <ProjectLockJson>$(MsBuildThisFileDirectory)windows\project.lock.json</ProjectLockJson>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(TargetGroup)' != 'netcore50' AND '$(TargetsWindows)' == 'true'">
+    <DefineConstants>$(DefineConstants);SUPPORTS_WINDOWSIDENTITY</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(CommonPath)\System\NotImplemented.cs">
+      <Link>Common\System\NotImplemented.cs</Link>
+    </Compile>
+    <Compile Include="$(CommonPath)\System\__HResults.cs">
+      <Link>Common\System\__HResults.cs</Link>
+    </Compile>
+    <Compile Include="$(MsBuildThisFileDirectory)\**\*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="project.json" />
+    <None Include="windows\project.json" />
+  </ItemGroup>
+  <ItemGroup Condition="'$(TargetGroup)' == 'netcore50'">
+    <EmbeddedResource Include="$(MsBuildThisFileDirectory)Resources\$(AssemblyName).rd.xml" />
+    <TargetingPackReference Include="Windows" />
+  </ItemGroup>
+  <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.targets))\dir.targets" />
+</Project>

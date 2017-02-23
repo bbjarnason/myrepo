@@ -1,0 +1,1 @@
+C:\sonarqube\projects\SonarProject\.sonarqube\out\\log4net.vs2012_AnyCPU_Debug_3864

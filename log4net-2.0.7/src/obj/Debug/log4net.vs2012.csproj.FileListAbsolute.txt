@@ -1,0 +1,11 @@
+C:\Users\Notandi\Downloads\log4net-2.0.7-src\log4net-2.0.7\build\bin\net\4.5\debug\log4net.dll
+C:\Users\Notandi\Downloads\log4net-2.0.7-src\log4net-2.0.7\build\bin\net\4.5\debug\log4net.pdb
+C:\Users\Notandi\Downloads\log4net-2.0.7-src\log4net-2.0.7\build\bin\net\4.5\debug\log4net.xml
+C:\Users\Notandi\Downloads\log4net-2.0.7-src\log4net-2.0.7\src\obj\Debug\log4net.dll
+C:\Users\Notandi\Downloads\log4net-2.0.7-src\log4net-2.0.7\src\obj\Debug\log4net.pdb
+C:\sonarqube\projects\log4net-2.0.7\build\bin\net\4.5\debug\log4net.dll
+C:\sonarqube\projects\log4net-2.0.7\build\bin\net\4.5\debug\log4net.pdb
+C:\sonarqube\projects\log4net-2.0.7\build\bin\net\4.5\debug\log4net.xml
+C:\sonarqube\projects\log4net-2.0.7\src\obj\Debug\log4net.dll
+C:\sonarqube\projects\log4net-2.0.7\src\obj\Debug\log4net.pdb
+C:\sonarqube\projects\log4net-2.0.7\src\obj\Debug\log4net.vs2012.csprojResolveAssemblyReference.cache

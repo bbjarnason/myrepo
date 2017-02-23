@@ -1,0 +1,1 @@
+C:\sonarqube\projects\SonarProject\.sonarqube\out\\Mono.Data.Sqlite_AnyCPU_Debug_3103

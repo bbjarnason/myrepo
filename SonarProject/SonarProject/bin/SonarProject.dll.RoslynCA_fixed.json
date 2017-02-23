@@ -1,0 +1,1199 @@
+{
+  "version": "0.1",
+  "toolInfo": {
+    "toolName": "Microsoft (R) Visual C# Compiler",
+    "productVersion": "1.0.0",
+    "fileVersion": "1.0.0"
+  },
+  "issues": [
+    {
+      "ruleId": "CS0219",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 339,
+                "startColumn": 16,
+                "endLine": 339,
+                "endColumn": 17
+              }
+            }
+          ]
+        }
+      ],
+      "fullMessage": "The variable 'x' is assigned but its value is never used",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "3",
+        "defaultSeverity": "Warning",
+        "title": "Variable is assigned but its value is never used",
+        "category": "Compiler",
+        "isEnabledByDefault": "True",
+        "customTags": "Compiler;Telemetry"
+      }
+    },
+    {
+      "ruleId": "S125",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\App_Start\\Startup.Auth.cs",
+              "region": {
+                "startLine": 50,
+                "startColumn": 12,
+                "endLine": 50,
+                "endColumn": 36
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this commented out code.",
+      "fullMessage": "Programmers should not comment out code as it bloats programs and reduces readability.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Sections of code should not be \"commented out\"",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S125",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1118",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\App_Start\\BundleConfig.cs",
+              "region": {
+                "startLine": 5,
+                "startColumn": 17,
+                "endLine": 5,
+                "endColumn": 29
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add a \"protected\" constructor or the \"static\" keyword to the class declaration.",
+      "fullMessage": "Utility classes, which are collections of static members, are not meant to be instantiated. Even abstract utility classes, which can be extended, should not have public constructors.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Utility classes should not have public constructors",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S1118",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1118",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\App_Start\\FilterConfig.cs",
+              "region": {
+                "startLine": 5,
+                "startColumn": 17,
+                "endLine": 5,
+                "endColumn": 29
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add a \"protected\" constructor or the \"static\" keyword to the class declaration.",
+      "fullMessage": "Utility classes, which are collections of static members, are not meant to be instantiated. Even abstract utility classes, which can be extended, should not have public constructors.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Utility classes should not have public constructors",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S1118",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1118",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\App_Start\\RouteConfig.cs",
+              "region": {
+                "startLine": 9,
+                "startColumn": 17,
+                "endLine": 9,
+                "endColumn": 28
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add a \"protected\" constructor or the \"static\" keyword to the class declaration.",
+      "fullMessage": "Utility classes, which are collections of static members, are not meant to be instantiated. Even abstract utility classes, which can be extended, should not have public constructors.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Utility classes should not have public constructors",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S1118",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S1144",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 337,
+                "startColumn": 8,
+                "endLine": 341,
+                "endColumn": 9
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this unused private member.",
+      "fullMessage": "Private types or members that are never executed or referenced are dead code: unnecessary, inoperative code that should be removed. Cleaning out dead code decreases the size of the maintained codebase, making it easier to understand the program and preventing bugs from being introduced.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Info",
+        "title": "Unused private types or members should be removed",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S1144",
+        "isEnabledByDefault": "True",
+        "customTags": "Unnecessary"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Models\\IdentityModels.cs",
+              "region": {
+                "startLine": 14,
+                "startColumn": 37,
+                "endLine": 14,
+                "endColumn": 116
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 84,
+                "startColumn": 31,
+                "endLine": 84,
+                "endColumn": 133
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 87,
+                "startColumn": 33,
+                "endLine": 87,
+                "endColumn": 85
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 90,
+                "startColumn": 26,
+                "endLine": 90,
+                "endColumn": 102
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 69,
+                "startColumn": 36,
+                "endLine": 69,
+                "endColumn": 75
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 70,
+                "startColumn": 34,
+                "endLine": 70,
+                "endColumn": 78
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 71,
+                "startColumn": 31,
+                "endLine": 71,
+                "endColumn": 65
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 72,
+                "startColumn": 42,
+                "endLine": 72,
+                "endColumn": 103
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 119,
+                "startColumn": 29,
+                "endLine": 119,
+                "endColumn": 117
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 127,
+                "startColumn": 22,
+                "endLine": 127,
+                "endColumn": 63
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 138,
+                "startColumn": 18,
+                "endLine": 138,
+                "endColumn": 87
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 139,
+                "startColumn": 29,
+                "endLine": 139,
+                "endColumn": 81
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 142,
+                "startColumn": 22,
+                "endLine": 142,
+                "endColumn": 98
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 153,
+                "startColumn": 18,
+                "endLine": 153,
+                "endColumn": 88
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 154,
+                "startColumn": 29,
+                "endLine": 154,
+                "endColumn": 81
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 157,
+                "startColumn": 22,
+                "endLine": 157,
+                "endColumn": 98
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 166,
+                "startColumn": 29,
+                "endLine": 166,
+                "endColumn": 116
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 181,
+                "startColumn": 31,
+                "endLine": 181,
+                "endColumn": 123
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 184,
+                "startColumn": 33,
+                "endLine": 184,
+                "endColumn": 85
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 187,
+                "startColumn": 26,
+                "endLine": 187,
+                "endColumn": 102
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 202,
+                "startColumn": 31,
+                "endLine": 202,
+                "endColumn": 95
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 207,
+                "startColumn": 29,
+                "endLine": 207,
+                "endColumn": 81
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 210,
+                "startColumn": 22,
+                "endLine": 210,
+                "endColumn": 98
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 232,
+                "startColumn": 31,
+                "endLine": 232,
+                "endColumn": 127
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 235,
+                "startColumn": 33,
+                "endLine": 235,
+                "endColumn": 85
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 238,
+                "startColumn": 26,
+                "endLine": 238,
+                "endColumn": 102
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S1481",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 166,
+                "startColumn": 16,
+                "endLine": 166,
+                "endColumn": 20
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this unused \"code\" local variable.",
+      "fullMessage": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Unused local variables should be removed",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S1481",
+        "isEnabledByDefault": "True"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 261,
+                "startColumn": 35,
+                "endLine": 261,
+                "endColumn": 109
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 264,
+                "startColumn": 37,
+                "endLine": 264,
+                "endColumn": 89
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 267,
+                "startColumn": 30,
+                "endLine": 267,
+                "endColumn": 106
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 286,
+                "startColumn": 29,
+                "endLine": 286,
+                "endColumn": 81
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 291,
+                "startColumn": 35,
+                "endLine": 291,
+                "endColumn": 88
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 315,
+                "startColumn": 34,
+                "endLine": 315,
+                "endColumn": 117
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S3216",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 320,
+                "startColumn": 31,
+                "endLine": 320,
+                "endColumn": 100
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Add \".ConfigureAwait(false)\" to this call to allow execution to continue in any thread.",
+      "fullMessage": "After an awaited Task has executed, you can continue execution in the original, calling thread or any arbitrary thread. Unless the rest of the code needs the context from which the Task was spawned, Task.ConfigureAwait(false) should be used to keep execution in the Task thread to avoid the need for context switching and the possibility of deadlocks.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "\"ConfigureAwait(false)\" should be used",
+        "category": "Sonar Bug",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S3216",
+        "isEnabledByDefault": "False"
+      }
+    },
+    {
+      "ruleId": "S1481",
+      "locations": [
+        {
+          "analysisTarget": [
+            {
+              "uri": "C:\\sonarqube\\projects\\SonarProject\\SonarProject\\Controllers\\ManageController.cs",
+              "region": {
+                "startLine": 339,
+                "startColumn": 16,
+                "endLine": 339,
+                "endColumn": 17
+              }
+            }
+          ]
+        }
+      ],
+      "shortMessage": "Remove this unused \"x\" local variable.",
+      "fullMessage": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+      "properties": {
+        "severity": "Warning",
+        "warningLevel": "1",
+        "defaultSeverity": "Warning",
+        "title": "Unused local variables should be removed",
+        "category": "Sonar Code Smell",
+        "helpLink": "http://vs.sonarlint.org/rules/index.html#version=1.22.0.1631&ruleId=S1481",
+        "isEnabledByDefault": "True"
+      }
+    }
+  ]
+}

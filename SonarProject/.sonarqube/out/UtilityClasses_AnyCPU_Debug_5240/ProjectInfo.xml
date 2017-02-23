@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>UtilityClasses</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>2ac0f93b-d5a0-4c7d-81ef-4ae360c8674c</ProjectGuid>
+  <FullPath>C:\sonarqube\projects\SonarProject\UtilityClasses\UtilityClasses.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\sonarqube\projects\SonarProject\.sonarqube\out\\UtilityClasses_AnyCPU_Debug_5240\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePath">C:\sonarqube\projects\SonarProject\UtilityClasses\bin\Debug\UtilityClasses.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPath">C:\sonarqube\projects\SonarProject\.sonarqube\out\\UtilityClasses_AnyCPU_Debug_5240</Property>
+    <Property Name="sonar.stylecop.projectFilePath">C:\sonarqube\projects\SonarProject\UtilityClasses\UtilityClasses.csproj</Property>
+  </AnalysisSettings>
+</ProjectInfo>

@@ -1,0 +1,6 @@
+C:\sonarqube\projects\SonarProject\QuizExcercises\bin\Debug\QuizExcercises.exe.config
+C:\sonarqube\projects\SonarProject\QuizExcercises\bin\Debug\QuizExcercises.exe
+C:\sonarqube\projects\SonarProject\QuizExcercises\bin\Debug\QuizExcercises.pdb
+C:\sonarqube\projects\SonarProject\QuizExcercises\obj\Debug\QuizExcercises.csprojResolveAssemblyReference.cache
+C:\sonarqube\projects\SonarProject\QuizExcercises\obj\Debug\QuizExcercises.exe
+C:\sonarqube\projects\SonarProject\QuizExcercises\obj\Debug\QuizExcercises.pdb

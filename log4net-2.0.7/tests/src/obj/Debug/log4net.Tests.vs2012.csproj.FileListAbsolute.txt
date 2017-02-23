@@ -1,0 +1,10 @@
+C:\Users\Notandi\Downloads\log4net-2.0.7-src\log4net-2.0.7\tests\bin\Debug\log4net.Tests.dll
+C:\Users\Notandi\Downloads\log4net-2.0.7-src\log4net-2.0.7\tests\bin\Debug\log4net.Tests.pdb
+C:\Users\Notandi\Downloads\log4net-2.0.7-src\log4net-2.0.7\tests\src\obj\Debug\log4net.Tests.vs2012.csprojResolveAssemblyReference.cache
+C:\Users\Notandi\Downloads\log4net-2.0.7-src\log4net-2.0.7\tests\src\obj\Debug\log4net.Tests.dll
+C:\Users\Notandi\Downloads\log4net-2.0.7-src\log4net-2.0.7\tests\src\obj\Debug\log4net.Tests.pdb
+C:\sonarqube\projects\log4net-2.0.7\tests\bin\Debug\log4net.Tests.dll
+C:\sonarqube\projects\log4net-2.0.7\tests\bin\Debug\log4net.Tests.pdb
+C:\sonarqube\projects\log4net-2.0.7\tests\src\obj\Debug\log4net.Tests.vs2012.csprojResolveAssemblyReference.cache
+C:\sonarqube\projects\log4net-2.0.7\tests\src\obj\Debug\log4net.Tests.dll
+C:\sonarqube\projects\log4net-2.0.7\tests\src\obj\Debug\log4net.Tests.pdb

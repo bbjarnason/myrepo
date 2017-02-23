@@ -1,0 +1,15 @@
+R
+IC:\sonarqube\projects\SonarProject\SonarProject\App_Start\BundleConfig.csutf-8R
+IC:\sonarqube\projects\SonarProject\SonarProject\App_Start\FilterConfig.csutf-8T
+KC:\sonarqube\projects\SonarProject\SonarProject\App_Start\IdentityConfig.csutf-8Q
+HC:\sonarqube\projects\SonarProject\SonarProject\App_Start\RouteConfig.csutf-8R
+IC:\sonarqube\projects\SonarProject\SonarProject\App_Start\Startup.Auth.csutf-8Y
+PC:\sonarqube\projects\SonarProject\SonarProject\Controllers\AccountController.csutf-8V
+MC:\sonarqube\projects\SonarProject\SonarProject\Controllers\HomeController.csutf-8X
+OC:\sonarqube\projects\SonarProject\SonarProject\Controllers\ManageController.csutf-8G
+>C:\sonarqube\projects\SonarProject\SonarProject\Global.asax.csutf-8T
+KC:\sonarqube\projects\SonarProject\SonarProject\Models\AccountViewModels.csutf-8Q
+HC:\sonarqube\projects\SonarProject\SonarProject\Models\IdentityModels.csutf-8S
+JC:\sonarqube\projects\SonarProject\SonarProject\Models\ManageViewModels.csutf-8S
+JC:\sonarqube\projects\SonarProject\SonarProject\Properties\AssemblyInfo.csutf-8C
+:C:\sonarqube\projects\SonarProject\SonarProject\Startup.csutf-8

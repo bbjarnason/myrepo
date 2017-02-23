@@ -1,0 +1,11 @@
+Mono.Data.Sqlite/Documentation
+*project.lock.json
+*.userprefs
+*.user
+*.suo
+*~
+test-results
+packages
+obj
+bin
+.vs

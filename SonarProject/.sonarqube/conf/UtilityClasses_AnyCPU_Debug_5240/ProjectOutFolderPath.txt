@@ -1,0 +1,1 @@
+C:\sonarqube\projects\SonarProject\.sonarqube\out\\UtilityClasses_AnyCPU_Debug_5240

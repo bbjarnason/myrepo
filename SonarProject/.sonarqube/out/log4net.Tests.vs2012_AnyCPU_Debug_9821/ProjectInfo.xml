@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>log4net.Tests.vs2012</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Test</ProjectType>
+  <ProjectGuid>b0530f10-0238-49a9-93b0-8ef412e90bcf</ProjectGuid>
+  <FullPath>C:\sonarqube\projects\log4net-2.0.7\tests\src\log4net.Tests.vs2012.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\sonarqube\projects\SonarProject\.sonarqube\out\\log4net.Tests.vs2012_AnyCPU_Debug_9821\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.stylecop.projectFilePath">C:\sonarqube\projects\log4net-2.0.7\tests\src\log4net.Tests.vs2012.csproj</Property>
+  </AnalysisSettings>
+</ProjectInfo>

@@ -1,0 +1,1 @@
+C:\sonarqube\projects\SonarProject\.sonarqube\out\\SD.Tools.Algorithmia_AnyCPU_Debug_3258

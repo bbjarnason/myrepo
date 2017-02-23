@@ -1,0 +1,32 @@
+Product projects
+---------------------------------------
+C:\sonarqube\projects\log4net-2.0.7\src\log4net.vs2012.csproj
+C:\sonarqube\projects\MimeKit-1.10.1\MimeKit-1.10.1\Mono.Data.Sqlite\Mono.Data.Sqlite.csproj
+C:\sonarqube\projects\MyFirstXamarinProject\MyFirstXamarinProject\MyFirstXamarinProject.csproj
+C:\sonarqube\projects\Algorithmia-master\SD.Tools.Algorithmia\SD.Tools.Algorithmia.csproj
+C:\sonarqube\projects\SonarProject\SonarProject\SonarProject.csproj
+C:\sonarqube\projects\SonarProject\UtilityClasses\UtilityClasses.csproj
+
+
+Test projects
+---------------------------------------
+C:\sonarqube\projects\log4net-2.0.7\tests\src\log4net.Tests.vs2012.csproj
+C:\sonarqube\projects\SonarProject\SonarProject.Tests\SonarProject.Tests.csproj
+
+
+Invalid projects
+---------------------------------------
+{none}
+{none}
+
+
+Skipped projects
+---------------------------------------
+{none}
+
+
+Excluded projects
+---------------------------------------
+{none}
+
+
