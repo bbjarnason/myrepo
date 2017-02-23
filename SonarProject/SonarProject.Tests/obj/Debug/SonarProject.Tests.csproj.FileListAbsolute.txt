@@ -57,3 +57,4 @@ C:\sonarqube\projects\SonarProject\SonarProject.Tests\bin\Debug\Microsoft.Owin.H
 C:\sonarqube\projects\SonarProject\SonarProject.Tests\obj\Debug\SonarProject.Tests.csprojResolveAssemblyReference.cache
 C:\sonarqube\projects\SonarProject\SonarProject.Tests\obj\Debug\SonarProject.Tests.dll
 C:\sonarqube\projects\SonarProject\SonarProject.Tests\obj\Debug\SonarProject.Tests.pdb
+C:\sonarqube\projects\SonarProject\SonarProject.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll

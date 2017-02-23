@@ -7,7 +7,7 @@ namespace PskillsConsoleApplication
     
     public class CalculateEvenInts
     {
-        /*static void Main(string[] args)
+        static void Main(string[] args)
         {
             int[] numbersToCalc = new int[] { 1, 4, 2, 7, 9 };
 
@@ -17,7 +17,7 @@ namespace PskillsConsoleApplication
 
             Console.WriteLine("Calculate total all the values that are even numbers");
             Console.ReadLine();
-        }*/
+        }
 
         //Given an array of ints, write a C# method to total all the values that are even numbers.
 
@@ -47,20 +47,9 @@ namespace PskillsConsoleApplication
 
         private static string result;
 
-        static void Main()
-        {
-            SaySomething();
-            Console.WriteLine(result);
-            Console.ReadLine();
-        }
+        
 
-        static async Task<string> SaySomething()
-        {
-            await Task.Delay(5);
-            result = "Hello world!";
-            return "Something";
-        }
-
+       
 
     }
 
