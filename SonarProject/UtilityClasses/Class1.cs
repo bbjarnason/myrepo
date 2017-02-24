@@ -22,6 +22,10 @@ namespace UtilityClasses
             return;
         }
 
+        private int newFeature(int x)
+        {
+            return 0;
+        }
 
     }
 }
