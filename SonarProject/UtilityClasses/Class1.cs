@@ -27,5 +27,10 @@ namespace UtilityClasses
             return 0;
         }
 
+        private int yetAnotherFeature(int x)
+        {
+            return 0;
+        }
+
     }
 }
